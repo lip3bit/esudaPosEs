@@ -88,6 +88,14 @@ Descreva no corpo do PR **o que** mudou e **por quê**. Se a alteração afeta o
 
 ---
 
+## Registrando problemas conhecidos
+
+Se você travou em algum erro e conseguiu resolver, registre em [docs/problemas-conhecidos.md](docs/problemas-conhecidos.md) antes de seguir em frente. O formato de cada entrada é sintoma (com a mensagem de erro literal), causa e solução com os comandos.
+
+Isso vale tanto para problemas de ambiente quanto para defeitos do projeto. No segundo caso, depois de corrigir no código, mova o registro para a seção de problemas já corrigidos explicando como foi resolvido, em vez de apagar a entrada. Quem estiver com um clone antigo vai precisar dessa informação.
+
+---
+
 ## Estrutura do repositório
 
 | Pasta | Conteúdo |

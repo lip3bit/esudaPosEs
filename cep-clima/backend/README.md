@@ -52,7 +52,22 @@ backend/src/main/java/br/edu/esuda/cepclima/
 
 ## Interface web
 
-A página servida em `http://localhost:8080` fica em `src/main/resources/static/index.html`. É a única cópia — edite-a diretamente. Ver [../frontend/README.md](../frontend/README.md).
+A página servida em `http://localhost:8080` fica em `src/main/resources/static/index.html`. É a única cópia, então edite ela diretamente. Ver [../frontend/README.md](../frontend/README.md).
+
+## Problemas conhecidos
+
+O catálogo completo de erros já enfrentados no projeto, com sintoma, causa e solução, está em [docs/problemas-conhecidos.md](../../docs/problemas-conhecidos.md).
+
+Os que mais aparecem ao rodar o backend:
+
+| Erro | Onde está documentado |
+|------|-----------------------|
+| `Cannot start maven from wrapper` | [item 1.2](../../docs/problemas-conhecidos.md#12-o-maven-wrapper-não-inicia) |
+| `port is already allocated` na 8080 | [item 1.3](../../docs/problemas-conhecidos.md#13-a-porta-8080-já-está-em-uso) |
+| `Permission denied` no `mvnw` | [item 1.4](../../docs/problemas-conhecidos.md#14-permissão-negada-ao-executar-o-mvnw) |
+| A página abre mas não retorna dados | [item 1.5](../../docs/problemas-conhecidos.md#15-a-página-abre-mas-não-retorna-dados) |
+
+Se você resolver um problema que ainda não está lá, registre no catálogo em vez de deixar a solução só no histórico do WhatsApp.
 
 ## Testes
 

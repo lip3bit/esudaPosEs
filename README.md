@@ -81,6 +81,10 @@ esudaPosEs/
 | Erro de conexão na página | Execute `docker compose up --build` dentro da pasta `cep-clima` |
 | `permission denied` no `mvnw` | Execute `chmod +x mvnw` dentro de `cep-clima/backend` |
 
+Cada um desses erros está detalhado, com sintoma completo, causa e passo a passo, em **[docs/problemas-conhecidos.md](docs/problemas-conhecidos.md)**. O documento também guarda o histórico dos defeitos que já foram corrigidos no projeto.
+
+Resolveu algo que não está lá? Registre no catálogo, assim a próxima pessoa não perde o mesmo tempo.
+
 ---
 
 ## Autores
